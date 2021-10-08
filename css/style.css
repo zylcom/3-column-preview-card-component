@@ -1,8 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --paragraphs: hsla(0, 0%, 100%, 0.75);
+  --background: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+body {
+  font-size: 15px;
+  scroll-behavior: smooth;
+  background: var(--background);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h1 {
+  color: var(--background);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+p {
+  color: var(--paragraphs);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-wrapper {
+  display: grid;
+  margin: 70px 20px;
+}
+
+.card {
+  padding: 42px;
+}
+
+.icon {
+  margin-bottom: 20px;
+}
+
+#sedans {
+  background: var(--bright-orange);
+  border-radius: 10px 10px 0 0;
+}
+
+#suvs {
+  background: var(--dark-cyan);
+}
+
+#luxury {
+  background: var(--very-dark-cyan);
+  border-radius: 0 0 10px 10px;
+}
+
+.btn {
+  padding: 12px;
+  border-radius: 30px;
+  font-family: "Lexend Deca", sans-serif;
+  border: none;
+  width: 150px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+#btn-sedans {
+  color: var(--bright-orange);
+}
+
+#btn-suvs {
+  color: var(--dark-cyan);
+}
+
+#btn-luxury {
+  color: var(--very-dark-cyan);
+}
+
+#btn-sedans:active,
+#btn-suvs:active,
+#btn-luxury:active {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  width: 100%;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 768px) {
+  body,
+  .container {
+    min-height: 100vh;
+  }
+
+  .card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+  }
+
+  #sedans {
+    border-radius: 10px 0 0 10px;
+  }
+
+  #luxury {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body,
+  .container {
+    min-height: 100vh;
+  }
+
+  /* .container {
+    height: 100vh;
+  } */
+
+  .card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 70px 280px;
+  }
+
+  p {
+    margin-bottom: 60px;
+  }
+
+  #sedans {
+    border-radius: 10px 0 0 10px;
+  }
+
+  #luxury {
+    border-radius: 0 10px 10px 0;
+  }
 }
