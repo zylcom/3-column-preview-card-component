@@ -24,12 +24,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- Desktop
+  ![desktop](https://raw.githubusercontent.com/zylcom/3-column-preview-card-component-main/main/screenshots/desktop-view.png)
+- Mobile
+  ![mobile](https://raw.githubusercontent.com/zylcom/3-column-preview-card-component-main/main/screenshots/mobile-view.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://zylcom.github.io/3-column-preview-card-component-main/](https://zylcom.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
