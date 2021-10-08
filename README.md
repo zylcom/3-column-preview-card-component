@@ -26,16 +26,16 @@ Users should be able to:
 
 - Desktop
   
-  ![desktop](https://raw.githubusercontent.com/zylcom/3-column-preview-card-component-main/main/screenshots/desktop-view.png)
+  ![desktop](https://raw.githubusercontent.com/zylcom/3-column-preview-card-component/main/screenshots/desktop-view.png)
   
 - Mobile
   
-  ![mobile](https://raw.githubusercontent.com/zylcom/3-column-preview-card-component-main/main/screenshots/mobile-view.png)
+  ![mobile](https://raw.githubusercontent.com/zylcom/3-column-preview-card-component/main/screenshots/mobile-view.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://zylcom.github.io/3-column-preview-card-component-main/](https://zylcom.github.io/3-column-preview-card-component-main/)
+- Live Site URL: [https://zylcom.github.io/3-column-preview-card-component/](https://zylcom.github.io/3-column-preview-card-component/)
 
 ## My process
 
