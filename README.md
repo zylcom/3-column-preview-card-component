@@ -25,8 +25,11 @@ Users should be able to:
 ### Screenshot
 
 - Desktop
+  
   ![desktop](https://raw.githubusercontent.com/zylcom/3-column-preview-card-component-main/main/screenshots/desktop-view.png)
+  
 - Mobile
+  
   ![mobile](https://raw.githubusercontent.com/zylcom/3-column-preview-card-component-main/main/screenshots/mobile-view.png)
 
 ### Links
