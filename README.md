@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-3-column-preview-card-component-7SrkMfY8J](https://www.frontendmentor.io/solutions/responsive-3-column-preview-card-component-7SrkMfY8J)
 - Live Site URL: [https://zylcom.github.io/3-column-preview-card-component/](https://zylcom.github.io/3-column-preview-card-component/)
 
 ## My process
