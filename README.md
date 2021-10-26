@@ -25,12 +25,12 @@ Users should be able to:
 ### Screenshot
 
 - Desktop
-  
-  ![desktop](https://raw.githubusercontent.com/zylcom/3-column-preview-card-component/main/screenshots/desktop-view.png)
-  
+
+  ![desktop](https://user-images.githubusercontent.com/67725925/138814340-46efcdb3-21c9-4525-8e54-d05278330264.png)
+
 - Mobile
-  
-  ![mobile](https://raw.githubusercontent.com/zylcom/3-column-preview-card-component/main/screenshots/mobile-view.png)
+
+  ![mobile](https://user-images.githubusercontent.com/67725925/138814374-efda4cf4-a548-4cf1-a3b6-13e2f71a746d.png)
 
 ### Links
 
